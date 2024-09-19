@@ -1,0 +1,21 @@
+Fan Speed Control:
+-> States represent the speed levels of a fan, such as "Off", "Low", "Medium", "High" .
+-> Each state have methods that represent events like increaseSpeed(), decreaseSpeed(), and turnOff().
+-> The fan changes its state as per events and the state it is in. (intial state is Off)
+-> The fan needs to increase, decrease and turn off its cooling and voltage as per its state changes.
+
+State Transitions:
+
+1. From Off, we can:
+    Increase speed to Low 
+2. From Low, we can:
+    Increase speed to Medium
+    Decrease speed to Off
+    Turn off to Off
+3. From Medium, we can:
+    Increase speed to High
+    Decrease speed to Low
+    Turn off to Off
+4. From High, we can:
+    Decrease speed to Medium
+    Turn off to Off

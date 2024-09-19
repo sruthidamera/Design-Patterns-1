@@ -1,0 +1,8 @@
+Online Auctions App
+
+-> In this app, multiple bidders and auctioneers are interested in a specific item. 
+-> When a new bid is placed, all the bidders and auctioneers are notified of the current highest bid. 
+-> Placing a new bid on an item is an event. 
+-> The observers are auctioneers and bidders.
+-> Whenever a NewBidEvent occurs, all the observers are notified.
+
